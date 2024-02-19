@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  background-image:url("https://images.unsplash.com/photo-1519703769388-a0bde9e8d6e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  color:#C3B000
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.about{
+  text-align:center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('your-background-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+/* About section styles */
+.about {
+    color:#A39717 ;
+    padding: 50px 0;
+}
+
+/* Skills section styles */
+.skills {
+    color:#A39717 ;
+    padding: 50px 0;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul li {
+    margin: 0 10px;
+}
+
+/* Contact section styles */
+.contact {
+    color:#A39717 ;
+    padding: 50px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skills img{
+   width: 100px;
+}
+.skills img:hover{
+    box-shadow: 1px 2px 2px 2px  gold;
+    cursor: pointer;
+    width: 120px;
+    transition-duration: 0.5s;
+}
